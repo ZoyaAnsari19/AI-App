@@ -78,7 +78,7 @@ nav {
 button {
   /* Mobile: smaller padding */
   padding: 0.625rem 1rem;
-  background: var(--color-bg-glass);
+  background: #FF5722;;
   backdrop-filter: var(--backdrop-blur-lg) saturate(180%);
   -webkit-backdrop-filter: var(--backdrop-blur-lg) saturate(180%);
   border: 1px solid var(--color-border-glass-medium);
@@ -102,9 +102,10 @@ button {
 
 button:hover,
 button:focus {
-  background: var(--color-bg-glass-hover);
+  background: #E64A19;
   border-color: var(--color-border-glass-strong);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 87, 34.0.4);
 }
 
 button:active {

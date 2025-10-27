@@ -22,7 +22,7 @@ function LogoMarquee() {
 
       <section className="logo-section">
         <h2 className="logo-heading">
-          Turbo AI is trusted by students and professionals at...
+          AI Learning App is trusted by students and professionals at...
         </h2>
 
         {/* Mobile Grid - Shows only 6 logos */}

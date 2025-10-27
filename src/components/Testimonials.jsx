@@ -7,19 +7,19 @@ const Testimonials = () => {
     {
       title: "Harvard Pre-med",
       image: "https://assets.api-turbo.ai/website/crests/harvard.png",
-      quote: "My bio textbook is 500 pages, but Turbo AI makes podcasts of each chapter so I can listen during my long commutes or workouts.",
+      quote: "My bio textbook is 500 pages, but AI Learning App makes podcasts of each chapter so I can listen during my long commutes or workouts.",
       author: "Olivia C."
     },
     {
       title: "Mom (4 kids, 2 dogs)",
       image: "https://assets.api-turbo.ai/website/icons/mom.png",
-      quote: "I always wanted to journal but was never consistent—life just got busy. Now I just talk to Turbo AI for 2 mins every night, and it turns my thoughts into neat daily entries automatically.",
+      quote: "I always wanted to journal but was never consistent—life just got busy. Now I just talk to AI Learning App for 2 mins every night, and it turns my thoughts into neat daily entries automatically.",
       author: "Danielle T."
     },
     {
       title: "MIT Education PhD",
       image: "https://assets.api-turbo.ai/website/crests/mit.png",
-      quote: "Turbo AI outlines my research paper, then I go use my voice to tell it how I want each paragraph. I do the thinking, and Turbo AI does the writing.",
+      quote: "AI Learning App outlines my research paper, then I go use my voice to tell it how I want each paragraph. I do the thinking, and AI Learning App does the writing.",
       author: "Elena R.",
       highlights: ["outlines my research paper"]
     },
@@ -33,13 +33,13 @@ const Testimonials = () => {
     {
       title: "Yale Law Student",
       image: "https://assets.api-turbo.ai/website/crests/yale.png",
-      quote: "Case law used to overwhelm me, but Turbo AI instantly turns my readings into flashcards and quizzes. Now I can actually keep up daily instead of cramming all night before exams.",
+      quote: "Case law used to overwhelm me, but AI Learning App instantly turns my readings into flashcards and quizzes. Now I can actually keep up daily instead of cramming all night before exams.",
       author: "Marcus O."
     },
     {
       title: "McKinsey Consultant",
       image: "https://assets.api-turbo.ai/website/logos/mckinsey.svg",
-      quote: "Turbo AI records my meetings into notes, then I quickly edit them to highlight action items—makes follow-ups super easy.",
+      quote: "AI Learning App records my meetings into notes, then I quickly edit them to highlight action items—makes follow-ups super easy.",
       author: "Jason A.",
       highlights: ["records my meetings"],
       isSvg: true

@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <>
       <nav >
-        <div ><Link to='/' className="logo">🖊turbo ai</Link></div>
+        <div ><Link to='/' className="logo">🖊 Search</Link></div>
         <button>Start now</button>
       </nav>
    

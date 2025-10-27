@@ -160,7 +160,7 @@ return (
           onMouseEnter={(e) => e.currentTarget.style.color = '#6b7280'}
           onMouseLeave={(e) => e.currentTarget.style.color = '#9ca3af'}
         >
-          Learn more about Turbo AI
+          Learn more about AI Learning App
         </a>
       </div>
     </div>

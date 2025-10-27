@@ -56,7 +56,7 @@
   padding: 0.5rem 1rem;
   border-radius: 9999px;
   border: 1px solid rgba(168, 85, 247, 0.2);
-  background: linear-gradient(to right, rgba(168, 85, 247, 0.05), rgba(147, 51, 234, 0.05));
+  background: linear-gradient(to right, rgba(151, 69, 228, 0.05), rgba(131, 40, 216, 0.05));
   backdrop-filter: blur(8px);
   transition: all 0.3s;
   cursor: pointer;
@@ -307,7 +307,7 @@
 
 /* CTA Button */
 .cta-button {
-  background: var(--color-bg-glass);
+  background:  #FF5722;
   backdrop-filter: var(--backdrop-blur-lg) saturate(180%);
   -webkit-backdrop-filter: var(--backdrop-blur-lg) saturate(180%);
   border: 1px solid var(--color-border-glass-medium);
@@ -338,9 +338,10 @@
 
 .cta-button:hover,
 .cta-button:focus {
-  background: var(--color-bg-glass-hover);
+  background: #E64A19;
   border-color: var(--color-border-glass-strong);
   transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 87, 34.0.4);
 }
 
 .cta-button:active {

@@ -13,7 +13,7 @@ const Footer = () => {
     company: [
       { name: 'Sign Up', href: '/SignUp.jsx' },
       { name: 'Sign In', href: '/login' },
-      { name: 'Rebrand: Turbolearn AI → Turbo AI', href: '/turbolearn-ai' },
+      { name: 'Rebrand: AI learn  → AI Learning App ', href: '/ai-learn-ai' },
       { name: 'Blog', href: '/blog' }
     ],
     legal: [
@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Left Section */}
           <div className="footer__brand">
             <a href="/" className="footer__logo">
-              Turbo AI
+              AI Learning App
             </a>
             <p className="footer__tagline">Never write alone again</p>
             <a href="/signup" className="footer__cta-link">
@@ -96,7 +96,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="footer__copyright">
-          © 2025 Turbolearn LLC. All rights reserved.
+          © 2025 AIlearn LLC. All rights reserved.
         </div>
       </div>
     </footer>

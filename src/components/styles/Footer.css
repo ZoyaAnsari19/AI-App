@@ -63,7 +63,7 @@
 }
 
 .footer__cta-button {
-  background: rgba(255, 255, 255, 0.05);
+  background:  #FF5722;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 0.75rem;
   padding: 0.5rem 1.5rem;
@@ -76,7 +76,8 @@
 }
 
 .footer__cta-button:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: #E64A19;
+  box-shadow: 0 6px 20px rgba(255, 87, 34.0.4);
 }
 
 .footer__cta-text {

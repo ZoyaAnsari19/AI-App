@@ -49,7 +49,7 @@ export default function TurboSection() {
         <a className="badge-link" href="/">
           <Sparkles className="sparkle-icon" />
           <span className="badge-text">
-            We're now <span className="badge-highlight">Turbo AI</span> (formerly Turbolearn AI)
+            We're now <span className="badge-highlight">AI Learning App</span> (formerly Turbolearn AI)
           </span>
           <span className="arrow">→</span>
         </a>
@@ -61,7 +61,7 @@ export default function TurboSection() {
 
         {/* Subheading with Typing Effect */}
         <p className="subheading">
-          Turbo AI records live, edits, comments and collaborates like a{' '}
+          AI Learning App records live, edits, comments and collaborates like a{' '}
           <span className="typing-wrapper">
             <span className="typing-container">
               <span className="typing-text">real assistant.</span>
@@ -79,7 +79,7 @@ export default function TurboSection() {
               >
                 |
                 <span className="typing-label">
-                  Turbo AI
+                  AI Learning App
                 </span>
               </span>
             </span>
@@ -106,7 +106,7 @@ export default function TurboSection() {
               <div className="card-image-wrapper">
                 <div className="card-image-mask">
                   <img 
-                    alt="Transform PDFs, videos, and audio into editable notes with Turbo AI"
+                    alt="Transform PDFs, videos, and audio into editable notes with AI Learning App"
                     className="card-image"
                     src="https://assets.api-turbo.ai/website/turnAnything.png"
                   />
@@ -124,20 +124,20 @@ export default function TurboSection() {
                   Live collaboration
                 </h3>
                 <p className="card-description">
-                  Turbo AI actively works alongside you — editing your doc, highlighting issues, adding AI comments.
+                  AI Learning App actively works alongside you — editing your doc, highlighting issues, adding AI comments.
                 </p>
               </div>
               <div className="card-image-wrapper" style={{ justifyContent: 'flex-start' }}>
                 <div className="card-image-mask-left">
                   <img 
-                    alt="Turbo AI actively editing and commenting on a document"
+                    alt="AI Learning App actively editing and commenting on a document"
                     style={{ height: 'auto' }}
-                    src="https://assets.api-turbo.ai/website/liveCollaboration.png"
+                    src="src/assets/img/logo3.png"
                   />
                 </div>
               </div>
               <p className="card-footer-text">
-                Turbo AI is available to chat all the time —{' '}
+                AI Learning App is available to chat all the time —{' '}
                 <span className="card-footer-highlight">the perfect teammate.</span>
               </p>
             </div>
@@ -175,12 +175,12 @@ export default function TurboSection() {
                   All your devices. Always synced.
                 </h3>
                 <p className="card-description">
-                  Turbo AI works on the web and mobile. Desktop app coming next month!
+                  AI Learning App works on the web and mobile. Desktop app coming next month!
                 </p>
               </div>
               <div className="devices-image-wrapper">
                 <img 
-                  alt="Turbo AI synced across laptop, tablet, and phone devices"
+                  alt="AI Learning App synced across laptop, tablet, and phone devices"
                   loading="lazy"
                   className="devices-image"
                   src="https://assets.api-turbo.ai/website/devices.webp"

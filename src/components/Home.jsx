@@ -16,12 +16,12 @@ function Home() {
     </div>
 
     <h1 className="Home-heading">
-      Meet Turb
+      AI Learnin
       <span className="turbo-o">
-        o
+        g
         <img 
-          src="https://assets.api-turbo.ai/website/turboHero.webp" 
-          alt="Turbo AI mascot" 
+          src="src/assets/img/logo.png" 
+          alt="AI Learning App mascot" 
           className="mascot-img"
         />
       </span>

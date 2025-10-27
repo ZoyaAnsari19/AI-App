@@ -36,12 +36,9 @@
   }
 }
 
-/* Mobile Grid */
+/* Mobile Grid - Hidden */
 .logo-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem 2rem;
-  padding: 0 2rem;
+  display: none;
 }
 
 .logo-grid-item {
@@ -59,27 +56,15 @@
   opacity: 0.8;
 }
 
-@media (min-width: 640px) {
-  .logo-grid {
-    display: none;
-  }
-}
-
-/* Desktop Marquee */
+/* Marquee for all devices */
 .logo-marquee-container {
-  display: none;
-}
-
-@media (min-width: 640px) {
-  .logo-marquee-container {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 48px;
-    overflow: hidden;
-    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-  }
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .logo-marquee-wrapper {
@@ -93,7 +78,6 @@
   width: max-content;
   will-change: transform;
 }
-
 
 .logo-marquee-img {
   height: 36px;
