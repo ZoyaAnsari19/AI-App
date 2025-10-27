@@ -75,8 +75,10 @@
   transition: all 0.2s ease-in-out;
 }
 
-.footer__cta-button:hover {
+.footer__cta-button:hover ,button:focus {
   background: #E64A19;
+  border-color: var(--color-border-glass-strong);
+  transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 87, 34.0.4);
 }
 
