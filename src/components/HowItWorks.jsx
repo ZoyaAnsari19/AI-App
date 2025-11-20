@@ -41,7 +41,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <div className="how-it-works">
+    <div className="how-it-works" id='works'>
       <div className="how-it-works__container">
         {/* Header */}
         <div className="how-it-works__header">

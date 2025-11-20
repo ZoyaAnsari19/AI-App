@@ -2,6 +2,8 @@ import React from 'react';
 import './styles/Footer.css';
 
 const Footer = () => {
+   
+  
   const footerLinks = {
     products: [
       { name: 'AI Note Taker', href: '/ai-note-taker' },
